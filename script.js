@@ -8,7 +8,7 @@ const PRODUCTS = [
     price: 890,
     kicker: "Frente bordado",
     desc: "Playera oversize en algodón de 240g con bordado de cruz y laurel al pecho. Corte caído, cuello reforzado.",
-    image: "assets/shop1.jpg",
+    image: "assets/shop1 - copia.jpg",
     focus: "0% 0%",
     sizes: ["S", "M", "L", "XL"]
   },
