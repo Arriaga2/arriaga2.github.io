@@ -17,7 +17,7 @@ const PRODUCTS = [
     name: "Estilo Griego",
     price: 920,
     kicker: "Grabado central",
-    desc: "Acercamiento al rostro coronado del grabado trasero, impreso en gran formato sobre algodón lavado a piedra.",
+    desc: "Acercamiento al estilo griego, impreso en gran formato sobre algodón lavado a piedra.",
     image: "assets/2 - copia.jpeg",
     focus: "75% 100%",
     sizes: ["S", "M", "L", "XL"]
