@@ -13,32 +13,12 @@ const PRODUCTS = [
     sizes: ["S", "M", "L", "XL"]
   },
   {
-    id: "arriaga-espalda",
-    name: "Arriaga Espalda Grande",
-    price: 950,
-    kicker: "Grabado trasero",
-    desc: "El grabado principal: tipografía gótica 'Arriaga' coronando la imagen del Sagrado Corazón en toda la espalda.",
-    image: "assets/shop1.jpg",
-    focus: "100% 0%",
-    sizes: ["S", "M", "L", "XL"]
-  },
-  {
-    id: "monograma-a",
-    name: "Monograma A",
-    price: 850,
-    kicker: "Detalle de pecho",
-    desc: "Versión minimalista con el monograma 'A' y laurel bordado, sin grabado en la espalda. Para uso diario.",
-    image: "assets/shop1.jpg",
-    focus: "0% 100%",
-    sizes: ["S", "M", "L", "XL"]
-  },
-  {
     id: "corona-eterna",
-    name: "Corona Eterna",
+    name: "Estilo Griego",
     price: 920,
     kicker: "Grabado central",
     desc: "Acercamiento al rostro coronado del grabado trasero, impreso en gran formato sobre algodón lavado a piedra.",
-    image: "assets/shop1.jpg",
+    image: "assets/2 - copia.jpeg",
     focus: "75% 100%",
     sizes: ["S", "M", "L", "XL"]
   }
@@ -357,7 +337,7 @@ cardForm.addEventListener("submit", (e) => {
  
   const last4 = digits.slice(-4);
   successTitle.textContent = "¡Pago recibido!";
-  successMessage.textContent = `Simulamos el cobro de ${checkoutTotalEl.textContent} a la tarjeta terminación ${last4}. (Demo: conecta aquí tu procesador de pagos real, p. ej. Stripe o Conekta.)`;
+  successMessage.textContent = `Simulamos el cobro de ${checkoutTotalEl.textContent} a la tarjeta terminación ${last4}. Gracias por tu compra.`;
   finishCheckout();
 });
  
